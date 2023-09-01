@@ -7,10 +7,9 @@ const Socialbar = () => {
         <div>
             <div className='SocialBar'>
                 <div className='Socials'>
-                    <a href='https://twitter.com/' target='_blank'><FaTwitter style={{ verticalAlign: 'middle' }} size='2rem' /></a>
-                    <a href='https://discord.com/' target='_blank'><FaTelegramPlane style={{ verticalAlign: 'middle' }} size='2rem' /></a>
-                    <a><FaGithub style={{ verticalAlign: 'middle' }} size='2rem' /></a>
-                    <a><FaDiscord style={{ verticalAlign: 'middle' }} size='2rem' /></a>
+                    <a href='https://twitter.com/ShibaOnyx' target='_blank'><FaTwitter style={{ verticalAlign: 'middle' }} size='2rem' /></a>
+                    <a href='https://t.me/ShibaonyxOfficial' target='_blank'><FaTelegramPlane style={{ verticalAlign: 'middle' }} size='2rem' /></a>
+                    <a href='https://shibaonyx.gitbook.io/shibaonyx_/' target='_bank'><FaGithub style={{ verticalAlign: 'middle' }} size='2rem' /></a>
                 </div>
             </div>
         </div>

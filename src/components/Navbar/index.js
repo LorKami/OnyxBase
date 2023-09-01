@@ -5,20 +5,14 @@ import './Navbar.css'
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import Logo from '../../images/Logo2.png'
+import Logo from '../../images/Logo3.png'
 
 import { EthereumClient, w3mConnectors, w3mProvider } from '@web3modal/ethereum'
-import { Web3Modal, Web3Button, Web3NetworkSwitch } from '@web3modal/react'
+import { Web3Modal, Web3Button } from '@web3modal/react'
 import { configureChains, createConfig, WagmiConfig } from 'wagmi'
-import Web3 from 'web3';
-import { base } from 'wagmi/chains'
+import { mainnet } from 'wagmi/chains'
 
-const rpcServer = 'https://rpc.shibchain.org';
-const chainId = '0x1b';
-
-const web3 = new Web3(new Web3.providers.HttpProvider(rpcServer), null, { chainId });
-
-const chains = [base]
+const chains = [mainnet]
 const projectId = process.env.REACT_APP_PROJECT_ID
 
 const { publicClient } = configureChains(chains, [w3mProvider({ projectId })])
@@ -52,7 +46,7 @@ function Navbar() {
                             <Link to='/'><p>Home</p></Link>
                             <Link to='/Farm'><p>Farm</p></Link>
                             <Link to='/BoardRoom'><p>Board</p></Link>
-                            <Link to='/'><p>GitBook</p></Link>
+                            <Link to='https://shibaonyx.gitbook.io/shibaonyx_/' target='_blank'><p>GitBook</p></Link>
 
                         </div>
 
@@ -73,7 +67,7 @@ function Navbar() {
                     '--w3m-accent-color': '#494949',
                     '--w3m-accent-fill-color': '#f0f8ff',
                     '--w3m-background-color': '#000000',
-                    '--w3m-logo-image-url': 'https://i.imgur.com/HvmJqp1.png'
+                    '--w3m-logo-image-url': 'https://i.imgur.com/hFJdADh.png'
                 }}
             />
         </div >

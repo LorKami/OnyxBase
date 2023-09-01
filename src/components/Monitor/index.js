@@ -42,8 +42,8 @@ const Monitor = () => {
             <p>"Shibarium Chain" DAO, pegged to the price of $BONE</p>
             <p>ShibaOnyx Finance is an algorithmic stable coin protocol pegged 1:1 to Bone on Shibarium Chain. Much like Basis Cash our protocol uses three tokens (SNYX, SSHARE, SBOND) to incentivize a stable 1:1 peg to BONE.
               The protocol's underlying mechanism dynamically adjusts SNYX supply, pushing its price up or down relative to the price BONE.</p>
-            <p className='PLinks'>Read our <a href='https://www.gitbook.com/'>Gitbook</a></p>
-            <p>Join our <a href='https://www.gitbook.com/'>Telegram</a> and <a href='https://www.gitbook.com/'> Discord</a></p>
+            <p className='PLinks'>Read our <a href='https://shibaonyx.gitbook.io/shibaonyx_/'>Gitbook</a></p>
+            <p>Join our <a href='https://t.me/ShibaonyxOfficial'>Telegram</a> and <a href='https://twitter.com/ShibaOnyx'> Twitter</a></p>
           </div>
 
           <div className="VLock">

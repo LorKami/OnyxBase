@@ -79,7 +79,7 @@ function BoardRoom() {
                 '--w3m-accent-color': '#494949',
                 '--w3m-accent-fill-color': '#f0f8ff',
                 '--w3m-background-color': '#000000',
-                '--w3m-logo-image-url': 'https://i.imgur.com/HvmJqp1.png'
+                '--w3m-logo-image-url': 'https://i.imgur.com/hFJdADh.png'
             }}
         />
     </div>
